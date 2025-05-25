@@ -1,0 +1,23 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Convert Labels",
+        "type": "shell",
+        "command": "python scripts/convert_labels.py",
+        "problemMatcher": []
+      },
+      {
+        "label": "Train YOLO",
+        "type": "shell",
+        "command": "python scripts/train.py",
+        "problemMatcher": []
+      },
+      {
+        "label": "Test Inference",
+        "type": "shell",
+        "command": "python scripts/inference_test.py",
+        "problemMatcher": []
+      }
+    ]
+  }

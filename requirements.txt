@@ -1,0 +1,4 @@
+ultralytics           # YOLOv8 library
+opencv-python         # image I/O
+Pillow                # optional, for image sizes in conversion
+pytest

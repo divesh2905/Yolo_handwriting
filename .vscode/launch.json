@@ -1,0 +1,25 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Debug Convert",
+        "type": "python",
+        "request": "launch",
+        "program": "${workspaceFolder}/scripts/convert_labels.py"
+      },
+      {
+        "name": "Debug Training",
+        "type": "python",
+        "request": "launch",
+        "program": "${workspaceFolder}/scripts/train.py",
+        "args": []
+      },
+      {
+        "name": "Debug Inference",
+        "type": "python",
+        "request": "launch",
+        "program": "${workspaceFolder}/scripts/inference_test.py",
+        "args": []
+      }
+    ]
+  }
